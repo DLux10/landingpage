@@ -1,0 +1,22 @@
+.__section_hero {
+    display: grid;
+    height: 500px;
+    place-items: center;
+}
+
+.__section_hero .__content_section_hero {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.__section_hero .__content_section_hero .__title_hero {
+    font-size: 5rem;
+    font-weight: 300;
+    font-family: var(--font-family-playfair);
+}
+.__section_hero .__content_section_hero .__title_hero_italic {
+    font-weight: 600;
+    font-style: italic;
+    font-family: var(--font-family-playfair);
+}

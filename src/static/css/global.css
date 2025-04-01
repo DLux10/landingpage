@@ -1,0 +1,51 @@
+:root {
+
+    --dark: #181818;
+    --light: #FFFFFF;
+
+    --secondary-light: #f4f4f4;
+
+    --font-family: "Poppins", sans-serif;
+    --font-family-playfair: "Playfair Display", serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    color: var(--dark);
+    background-color: var(--secondary-light);
+}
+
+input, select, textarea {
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}

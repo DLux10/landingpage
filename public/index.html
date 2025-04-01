@@ -1,43 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Iconos y manifest -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon(x16).png" sizes="16x16" type="image/png">
+    <link rel="icon" href="%PUBLIC_URL%/favicon(x32).png" sizes="32x32" type="image/png">
+    <link rel="icon" href="%PUBLIC_URL%/favicon(x48).png" sizes="48x48" type="image/png">
+    <link rel="icon" href="%PUBLIC_URL%/favicon(x64).png" sizes="64x64" type="image/png">
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Título optimizado -->
+    <title>D'LUX Agencia de Diseño Gráfico | Publicidad y Marketing Digital</title>
+
+    <!-- Descripción SEO -->
+    <meta name="description" content="D'LUX es una agencia de diseño gráfico y marketing digital ubicada en Jauja, Perú, que trabaja de manera remota para clientes en todo el país y a nivel internacional. Elevamos tu marca a otro nivel con nuestros servicios VIP.">
+
+    <!-- Palabras clave SEO -->
+    <meta name="keywords" content="diseño gráfico, agencia de diseño, marketing digital, publicidad, manejo de redes sociales, trabajos remotos, Jauja, Perú, diseño gráfico remoto, publicidad remota, servicios de diseño VIP, branding, identidad corporativa, diseño de logos, diseño publicitario, D'LUX, agencia creativa en Perú">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dluxagency.design">
+
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="D'LUX | Agencia de Diseño Gráfico" />
+    <meta property="og:description" content="Especialistas en diseño gráfico y marketing digital desde Jauja, Perú. Ofrecemos servicios a nivel nacional e internacional de manera remota." />
+    <meta property="og:url" content="https://dluxagency.design" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://dluxagency.design/banner.jpg" />
+    <meta property="og:locale" content="es_PE" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="D'LUX | Agencia de Diseño Gráfico">
+    <meta name="twitter:description" content="Agencia de diseño gráfico y marketing digital desde Jauja, Perú. Trabajamos de manera remota para elevar tu marca a otro nivel.">
+    <meta name="twitter:image" content="https://dluxagency.design/banner.jpg">
+
+    <!-- Localización geográfica -->
+    <meta name="geo.region" content="PE" />
+    <meta name="geo.placename" content="Jauja, Huancayo, Lima" />
+    <meta name="geo.position" content="-12.0695;-75.2025" />
+    <meta name="ICBM" content="-12.0695, -75.2025" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "DLUX DESIGN",
+            "url": "https://www.dluxagency.design/",
+            "logo": "https://www.dluxagency.design/logo192.png",
+            "sameAs": [
+                "https://www.facebook.com/dluxdesign12",
+                "https://www.instagram.com/dlux_design10",
+                "https://www.tiktok.com/@dluxdesign12"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+51 983508695",
+                "contactType": "Customer Service",
+                "areaServed": "PE",
+                "availableLanguage": ["Spanish", "English"]
+            }
+        }
+    </script>
+
+    <!-- Fuente personalizada -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+</head>
+<body>
+    
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+</body>
 </html>
